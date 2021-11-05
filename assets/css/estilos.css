@@ -1,0 +1,146 @@
+
+:root{
+    
+    --blanco: #ffff;
+    --fondotitulo: #F62A0B;
+    --fondofuter: #F9AFA4;
+    --fondo: #D6D3D3;
+     --oscuro: #7c7c7c;
+    --primario: #007bff;
+     --secundario: #0097a7;
+
+}
+
+.fondo{
+    background-color: var(--fondo);
+}
+
+.quiensoy {
+    text-align:justify;
+    padding-top: 3%;
+    font-weight: bold;
+    color: var(--oscuro);
+    
+}
+.p-portafolio1{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.p-portafolio{
+    text-align:justify;
+    padding-top: 3%;
+    font-weight: bold;
+    color: var(--oscuro);
+
+}
+
+.p-contacto{
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bold;
+    color: var(--oscuro);
+}
+
+.btn-enviar{
+    justify-content:center
+}
+.p-contacto{
+    text-align:justify;
+    font-weight: bold;
+    color: var(--oscuro);
+
+}
+.p-pasatiempos{
+    text-align:justify;
+    padding-top: 3%;
+    font-weight: bold;
+    color: var(--oscuro);
+}
+header{
+    
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+          
+}
+
+  .imgindex {
+    padding-top: 3%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.nav-bg{
+    background-color: var(--oscuro);
+}
+
+.navegacion-principal{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   } 
+
+/* para que el sitio sea responsive*/
+@media (min-width: 768px) {
+    .navbar{
+        flex-direction: row;
+
+    }
+    .navegacion-principal{
+        flex-direction: row;
+    }
+
+    
+} 
+
+.centrar-pasatiempos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .centrar-pasatiempos{
+        flex-direction: row;
+
+    }
+      
+} 
+.centrar-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+    .centrar-iconos{
+        flex-direction: row;
+
+    }
+      
+}
+
+
+.navegacion-principal a {
+    color: var(--blanco);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+      
+}
+
+.navegacion-principal :hover{
+    background-color: var(--primario);
+    color: var(--blanco);
+    padding: 3px;
+}
+
+.contenedor-estudios-portafolio-pasatiempos{
+    background-color: none ;
+}
+
