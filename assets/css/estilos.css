@@ -1,4 +1,5 @@
 
+/*Paleta de colores definida para el proyecto*/
 :root{
     
     --blanco: #ffff;
@@ -15,6 +16,7 @@
     background-color: var(--fondo);
 }
 
+/* alinear y justificar el parrafo del index*/
 .quiensoy {
     text-align:justify;
     padding-top: 3%;
@@ -22,6 +24,7 @@
     color: var(--oscuro);
     
 }
+/* justificar los parrafos de las paginas y definir un color oscuro*/
 .p-portafolio1{
     text-align: justify;
     font-weight: bold;
@@ -42,6 +45,7 @@
     color: var(--oscuro);
 }
 
+/* centrar el boton del formulario*/
 .btn-enviar{
     justify-content:center
 }
